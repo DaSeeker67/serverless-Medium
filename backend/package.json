@@ -5,13 +5,14 @@
     "deploy": "wrangler deploy --minify"
   },
   "dependencies": {
-    "@prisma/client": "^6.0.1",
-    "@prisma/extension-accelerate": "^1.2.1",
+    "@prisma/client": "^6.14.0",
+    "@prisma/extension-accelerate": "^1.3.0",
     "hono": "^4.6.13",
-    "prisma": "^6.0.1"
+    "prisma": "^6.14.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241112.0",
     "wrangler": "^3.88.0"
-  }
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
 }
